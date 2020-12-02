@@ -46,11 +46,30 @@
 # \c [db_name]
 # create schema [db_schema_name]
 # create table [table_name] ([field_names] [values])
+# 
+# #psql -h localhost -p 5432 -U postgress testdb
 ####################
+# postgres show tables: \dt
 #
+#
+#
+####################
 # pipenv install --dev python-dotenv
 # To activate this project's virtualenv, run pipenv shell.
 # Alternatively, run a command inside the virtualenv with pipenv run.
+#
+# pipenv install psycopg2-binary Flask-SQLAlchemy Flask-Migrate
+#
+# flask db init
+# flask db migrate
+# flask db upgrade
+# git log
+# git status
+# git add --all .
+# git commit -m "miau"
+# git push
+#
+
 
 
 
